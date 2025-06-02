@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: igmyeong-server
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/igmyeong
+    username: postgres
+    password: postgres
+
+  jpa:
+    hibernate:
+    ddl-auto: update
+    show-sql: true
